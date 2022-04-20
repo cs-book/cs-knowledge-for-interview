@@ -94,8 +94,6 @@ cost 큰편
 
 ## 멀티 Process
 
-ex) 웹 서버
-
 - 장점
     - process 하나의 문제가 다른 process에 영향을 끼치지 않음
 - 단점
