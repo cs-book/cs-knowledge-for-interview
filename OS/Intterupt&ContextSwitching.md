@@ -129,14 +129,13 @@ ex) 웹 서버
 
 <aside>
 💡 CPU는 한번에 한가지 일을 처리할 수 있다.  
-
+    #
 </aside>  
 #
 
 
 <aside>
 💡 Interrupt 는, CPU가 실행중인 프로세스를 [중단] 하기 위해 필요  
-
 </aside>  
 
 
@@ -147,6 +146,5 @@ ex) 웹 서버
 
 <aside>
 💡 Multi Threading 은, context switching 시 overhead를 최소화 하기 위해 필요  
-
 </aside>  
 
