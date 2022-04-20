@@ -132,17 +132,15 @@ ex) 웹 서버
 #
 
 
-<aside>
 💡 Interrupt 는, CPU가 실행중인 프로세스를 [중단] 하기 위해 필요  
-</aside>  
+#
+ 
 
 
-<aside>
 💡 Context Switching 은, interrupt시, Context(진행중이던 작업정보)를 다시 불러와 [멀티태스킹] 하기 위해 필요  
-</aside>  
+#
 
 
-<aside>
-💡 Multi Threading 은, context switching 시 overhead를 최소화 하기 위해 필요  
-</aside>  
+💡 Multi Threading 은, context switching 시 overhead를 최소화 하기 위해 필요    
+#
 
