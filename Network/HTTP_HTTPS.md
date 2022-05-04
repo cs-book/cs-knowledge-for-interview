@@ -43,7 +43,7 @@ HTTP는 암호화되지 않은 평문 통신이기 때문에 도청이 가능하
 
 ## 주류 주문 과정
 
-![Untitled](https://user-images.githubusercontent.com/38188374/166248102-f184bed8-27eb-4403-acd7-12bc625c29a9.png)
+![Untitled](https://user-images.githubusercontent.com/38188374/166248115-edbf0885-6b02-487d-9b0f-afb69d0b4948.png)
 
 1. 손님이 주민센터에 주민등록증 발급 신청, 지문 정보 제공
 2. 주민센터가 손님에게 주민등록증 발급
@@ -56,7 +56,7 @@ HTTP는 암호화되지 않은 평문 통신이기 때문에 도청이 가능하
 
 ## HTTPS 동작 과정
 
-![Untitled](https://user-images.githubusercontent.com/38188374/166248115-edbf0885-6b02-487d-9b0f-afb69d0b4948.png)
+![Untitled](https://user-images.githubusercontent.com/38188374/166248102-f184bed8-27eb-4403-acd7-12bc625c29a9.png)
 
 1. 서버가 CA에게 인증서 발급 신청, 서버의 공개키 제공
 2. CA의 비밀키로 암호화한 인증서 발급, CA의 공개키 제공
