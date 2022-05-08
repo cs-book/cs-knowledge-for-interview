@@ -17,7 +17,7 @@
 
 - [HTTP vs HTTPS](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Network/HTTP_vs_HTTPS.md)
 - [OSI 7 계층](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Network/OSI_7_layers.md)
-- [TCP vs UDP](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Network/TCP_UDP.pdf)
+- [TCP vs UDP](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Network/TCP_vs_UDP.pdf)
 - [대칭키 & 공개키](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Network/symmentric-key_vs_public-key.md)
 
 ### OS
@@ -25,8 +25,9 @@
 - [CPU 스케줄러](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/CPU_scheduler.md)
 - [Deadlock](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/deadlock.md)
 - [Interrupt vs Context Switching](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/interrupt_%26_context_switching.md)
-- [프로세스vs스레드](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4vs%EC%8A%A4%EB%A0%88%EB%93%9C.md)
+- [프로세스 vs 스레드](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/process_vs_thread.md)
 
 ### Web
 
-- [JWT(feat. Session)](<https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/JWT(feat.%20Session).md>)
+- [JWT](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/JWT.md)
+- [RESTful API](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/RESTful_API.md)
