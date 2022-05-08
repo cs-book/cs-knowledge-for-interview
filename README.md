@@ -1,8 +1,8 @@
 # cs-knowledge-for-interview
 
-### Algorithm
-
 ### Computer Architecture
+
+- [캐시 메모리](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Computer%20Architecture/cache_memory.md)
 
 ### Data Structure
 
