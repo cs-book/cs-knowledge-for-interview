@@ -2,13 +2,16 @@
 
 ### Computer Architecture
 
-- [캐시 메모리](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Computer%20Architecture/cache_memory.md)
+- [Cache Memory](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Computer%20Architecture/cache_memory.md)
 
 ### Data Structure
 
-- [해쉬 충돌](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/DataStructure/%ED%95%B4%EC%8B%9C%EC%B6%A9%EB%8F%8C.md)
+- [Stack & Queue](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Data%20Structure/Stack_%26_Queue.md)
+- [해시 충돌](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Data%20Structure/hash_collision.md)
 
 ### Database
+
+- [index](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Database/index.md)
 
 ### Design Pattern
 
