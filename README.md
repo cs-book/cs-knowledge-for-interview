@@ -8,10 +8,16 @@
 
 - [Stack & Queue](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Data%20Structure/Stack_%26_Queue.md)
 - [해시 충돌](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Data%20Structure/hash_collision.md)
+- [Heap](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Data%20Structure/heap.md)
 
 ### Database
 
+- [트랜잭션](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Database/Transaction.md)
 - [index](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Database/index.md)
+
+### Java
+
+- [String is immutable](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Java/string_is_immutable.md)
 
 ### Network
 
