@@ -73,8 +73,8 @@ Repeatable Read는 MySQL의 InnoDB 스토리지 엔진에서 기본으로 사용
 
 ## Serializable
 
-Serializable 격리 수준은 가장 단순하면서 엄격한 격리 수준입니다. 그리고 동시 처리 성능은 다른 격리 수준에 비해 떨어집니다. 읽기 작업을 할 때도 공유 잠금을 획득해야하기 때문입니다. 이 때 다른 트랜잭션에서 해당 레코드를 갱신할 수 없게 됩니다.
+Serializable 격리 수준은 가장 단순하면서 엄격한 격리 수준입니다. 그리고 동시 처리 성능은 다른 격리 수준에 비해 떨어집니다. 읽기 작업을 할 때도 공유 잠금을 획득해야하기 때문입니다. 이 때 다른 트랜잭션에서 해당 레코드를 갱신할 수 없게 됩니다. 따라서 Serializable 격리 수준에서는 Phantom Read 문제가 발생하지 않습니다.
 
-Serializable 격리 수준에서는 Phantom Read 문제가 발생하지 않습니다. 읽기 작업만으로도 해당 레코드에 잠금을 걸 수 있기 때문입니다. 그렇다고 Phantom Read 문제를 해결하기 위해 Serializable 격리 수준을 사용해야 하는 것은 아닙니다. InnoDB 스토리지 엔진에서는 갭 락과 넥스트 키 락 덕분에 Repeatable Read 격리 수준에서도 Phantom Read가 발생하지 않기 때문입니다. 따라서 굳이 Serializable 격리 수준을 사용할 필요는 없습니다.
+그렇다고 Phantom Read 문제를 해결하기 위해 Serializable 격리 수준을 사용해야 하는 것은 아닙니다. InnoDB 스토리지 엔진에서는 갭 락과 넥스트 키 락 덕분에 Repeatable Read 격리 수준에서도 Phantom Read가 발생하지 않기 때문입니다. 따라서 굳이 Serializable 격리 수준을 사용할 필요는 없습니다.
 
 > 관련 키워드 : 갭 락, 넥스트 키 락
