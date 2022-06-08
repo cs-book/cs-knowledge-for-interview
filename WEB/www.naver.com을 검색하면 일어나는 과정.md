@@ -1,6 +1,8 @@
 # 웹 브라우저에 www.naver.com을 검색하면 일어나는 과정
 
-![image-20220608135224901](C:\Users\guseh\AppData\Roaming\Typora\typora-user-images\image-20220608135224901.png)
+
+
+![](https://velog.velcdn.com/images/yhd520/post/e206f06f-1f57-41f8-b3ee-790b0f710786/image.png)
 
 
 
@@ -12,11 +14,11 @@ www.naver.com 이라는 도메인 이름으로는 컴퓨터끼리 통신할 수 
 > 처음 PC가 IP주소를 할당 받을 때, 2개의 DNS IP 주소를 함께 받는다. 이 DNS IP 주소를 저장해두기 때문에 DNS를 바로 찾아갈 수 있다.
 
 ##### DNS 동작 과정
+![](https://velog.velcdn.com/images/yhd520/post/5c7572b9-c34e-4eb9-baad-4f26d4478d07/image.png)
 
-![image-20220608164507228](img/image-20220608164507228.png)
-출처: https://1-7171771.tistory.com/134
 
-1 : PC에 미리 설정되어 있는 DNS(Local DNS)에게 [www.naver.com이라는](http://www.naver.xn--com-f42mh0r1y0a/) hostname에 대한 IP 주소를 물어봅니다.
+
+1 : PC에 미리 설정되어 있는 DNS(Local DNS)에게 www.naver.com이라는 hostname에 대한 IP 주소를 물어봅니다.
 
 2 : Local DNS에 해당 URL이 존재한다면 바로 응답을 보내고 존재하지 않는다면 root DNS 서버에 해당 URL의 IP 주소를 다시 요청한다.
 
@@ -44,10 +46,11 @@ www.naver.com 이라는 도메인 이름으로는 컴퓨터끼리 통신할 수 
 
 - B서버는 SYN요청을 받고 A클라이언트에게 요청을 수락한다는 ACK 와 SYN flag 가 설정된 패킷을 발송하고 A가 다시 ACK으로 응답하기를 기다린다. 이때 B서버는 SYN_RECEIVED 상태가 된다. 
 
-- A클라이언트는 B서버에게 ACK을 보내고 이후로부터는 연결이 이루어지고 데이터가 오가게 되는것이다. 이때의 B서버 상태가 ESTABLISHED 이다.위와 같은 방식으로 통신하는것이 신뢰성 있는 연결을 맺어 준다는 TCP의 3 Way handshake 방식이다.
+- A클라이언트는 B서버에게 ACK을 보내고 이후로부터는 연결이 이루어지고 데이터가 오가게 되는것이다. 이때의 B서버 상태가 ESTABLISHED 이다. 위와 같은 방식으로 통신하는것이 신뢰성 있는 연결을 맺어 준다는 TCP의 3 Way handshake 방식이다.
 
-![image-20220608163106074](img/image-20220608163106074.png)
-출처: https://sjlim5092.tistory.com/35?category=763426
+![](https://velog.velcdn.com/images/yhd520/post/e7c04db2-090f-4075-b6ae-4c3a698f37a6/image.png)
+
+
 
 이 과정이 끝나면 TCP connection이 완성되는 것이다.
 
