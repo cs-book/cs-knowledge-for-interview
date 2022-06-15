@@ -11,12 +11,12 @@ Tags: CS, Design Pattern, SW Engineering
 1. 프로세스 내에서 객체가 하나만 만들어져야 할 때
 2. 굳이 중복된 객체 생성 비용을 감당할 필요가 없을 때
 
-![Untitled](Singleton%20Pattern%20&%20Factory%20Pattern%207d83bb9240da475d90a81f584c308758/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f84d7cd1-258e-4a43-b40a-cc32b098826e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220615%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220615T113452Z&X-Amz-Expires=86400&X-Amz-Signature=e1d4ef4bbf3ee5e72d3ee67e9e5924bd96c18ca45a3e30522ef0e4751cfa0e7b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ### 1.1 특징
 
 <aside>
-⭐ 소프트웨어 디자인 패턴에서 싱글턴 패턴(Singleton pattern)을 따르는 클래스는, **생성자가 여러 차례 호출되더라도 실제로 생성되는 객체는 하나이고 최초 생성 이후에 호출된 생성자는 최초의 생성자가 생성한 객체를 리턴**한다. 이와 같은 디자인 유형을 싱글턴 패턴이라고 한다.
+⭐ 소프트웨어 디자인 패턴에서 싱글턴 패턴(Singleton pattern)을 따르는 클래스는, 생성자가 여러 차례 호출되더라도 실제로 생성되는 객체는 하나이고 최초 생성 이후에 호출된 생성자는 최초의 생성자가 생성한 객체를 리턴한다. 이와 같은 디자인 유형을 싱글턴 패턴이라고 한다.
 
 </aside>
 
@@ -28,14 +28,14 @@ Tags: CS, Design Pattern, SW Engineering
 
 ```tsx
 const obj1 = {
-	algo: "cs-book"
-}
+  algo: "cs-book",
+};
 
 const obj2 = {
-	algo: "cs-book"
-}
+  algo: "cs-book",
+};
 
-console.log(obj1 === obj2)
+console.log(obj1 === obj2);
 // false
 ```
 
@@ -45,21 +45,21 @@ console.log(obj1 === obj2)
 
 ```tsx
 class Singleton {
-	constructor() {
-		if (!Singleton.instance) {
-			Singleton.instance = this
-		}
-		return Singleton.instance
-	}
-	getInstance() {
-		return this.instance
-	}
+  constructor() {
+    if (!Singleton.instance) {
+      Singleton.instance = this;
+    }
+    return Singleton.instance;
+  }
+  getInstance() {
+    return this.instance;
+  }
 }
 
-const a = new Singleton()
-const b = new Singleton()
+const a = new Singleton();
+const b = new Singleton();
 
-console.log(a === b) // true
+console.log(a === b); // true
 ```
 
 `Singleton.instance`라는 하나의 인스턴스를 가지는 `Singleton` 클래스를 구현한 모습. `a`와 `b`는 하나의 인스턴스를 공유한다.
@@ -97,11 +97,11 @@ console.log(a === b) // true
 
 ### 1.5 Java에서의 싱글톤 패턴
 
- 여러 명의 사원이 하나의 프린터기를 사용하는 경우의 예제
+여러 명의 사원이 하나의 프린터기를 사용하는 경우의 예제
 
 ```java
 package csbook.softwareEngineering.signleton
-    
+
 public class Printer {
 	private static Printer printer = null;
 
@@ -127,40 +127,37 @@ public class Printer {
 ### 1.7 단점
 
 1. 멀티쓰레드 환경에서 안전하지 않다.
-    1. 생성자가 여러 쓰레드에서 동시에 실행된다면?
-    2. 여러 쓰레드에서 작업 중이기 때문에 일관되게 유지하고 싶은 상태가 있다면, 이를 관리하기가 어렵다.
+   1. 생성자가 여러 쓰레드에서 동시에 실행된다면?
+   2. 여러 쓰레드에서 작업 중이기 때문에 일관되게 유지하고 싶은 상태가 있다면, 이를 관리하기가 어렵다.
 2. 싱글톤 인스턴스를 참조하는 모든 모듈에 의존성이 생긴다
-    1. TDD하기 어려움 - 단위 기능 테스트를 하는 데, 독립적인 테스트를 하기 어렵다. (예를 들어, 모든 테스트에서 독립적으로 테스트할 때 DB를 생성해야 함)
-    2. 재사용성이 낮아짐
+   1. TDD하기 어려움 - 단위 기능 테스트를 하는 데, 독립적인 테스트를 하기 어렵다. (예를 들어, 모든 테스트에서 독립적으로 테스트할 때 DB를 생성해야 함)
+   2. 재사용성이 낮아짐
 
 ### 1.8 해결 방법
 
-1. 멀티 쓰레드 환경
-    1. 최초 인스턴스가 클래스를 호출하기 전에, 
-    선제적으로 클래스가 메모리에 올라올 때 부터 최초 인스턴스를 만들어 버리기
-        
-        `private static Printer printer = null;` 
+1.  멀티 쓰레드 환경
+    1.  최초 인스턴스가 클래스를 호출하기 전에,
+        선제적으로 클래스가 메모리에 올라올 때 부터 최초 인스턴스를 만들어 버리기
+        `private static Printer printer = null;`
         → `private static Printer printer = new Printer();`
-        
-    2. 상태는 `synchronized` 를 통해 관리하기 (`java`)
+    2.  상태는 `synchronized` 를 통해 관리하기 (`java`)
         - 각 언어별로 동시에 접근하는 것을 막는 방법들이 있다고 함
         - 예를 들어, golang 같은 경우에도 `sync.Once`와 같이 최초 한 번만 실행되게 하는 기능들이 있음
-2. 의존성
-    
+2.  의존성
+
     **의존성 주입**을 통해 해결
-    
+
     **의존성 주입이란?**
-    
+
     <aside>
     ⭐ 클래스 모델이나 코드에는 **런타임 시점의 의존관계가 드러나지 않는다**. 그러기 위해서는 인터페이스만 의존하고 있어야 한다.
-    
+
     - 런타임 시점의 의존관계는 컨테이너나 팩토리 같은 **제3의 존재가 결정**한다.
-    - *의존관계는 사용할 오브젝트에 대한 레퍼런스를 외부에서 제공(주입)해줌으로써 만들어진다.*
-        - *이일민, 토비의 스프링 3.1, 에이콘(2012), p114*
+    - _의존관계는 사용할 오브젝트에 대한 레퍼런스를 외부에서 제공(주입)해줌으로써 만들어진다._ - _이일민, 토비의 스프링 3.1, 에이콘(2012), p114_
     </aside>
-    
+
     예를 들어, 무슨 프린터인지는 클래스에서 관심 없게 만들어 버리고, 클래스 바깥에서 프린터의 종류를 관리
-    
+
     ```java
     class Printer {
     		...
@@ -168,23 +165,22 @@ public class Printer {
             this.Printer = printer;
         }
     }
-    
+
     class Employee {
         private Printer printer = new Printer();
-    
+
         public void changePrinter() {
             printer.setPrinterDevice(new OfficePrinterA());
         }
     }
     ```
-    
 
 ### 1.9 Reference
 
 - 싱글톤 패턴
-    - [https://velog.io/@kyle/자바-싱글톤-패턴-Singleton-Pattern](https://velog.io/@kyle/%EC%9E%90%EB%B0%94-%EC%8B%B1%EA%B8%80%ED%86%A4-%ED%8C%A8%ED%84%B4-Singleton-Pattern)
+  - [https://velog.io/@kyle/자바-싱글톤-패턴-Singleton-Pattern](https://velog.io/@kyle/%EC%9E%90%EB%B0%94-%EC%8B%B1%EA%B8%80%ED%86%A4-%ED%8C%A8%ED%84%B4-Singleton-Pattern)
 - 의존성 주입
-    - [https://tecoble.techcourse.co.kr/post/2021-04-27-dependency-injection/](https://tecoble.techcourse.co.kr/post/2021-04-27-dependency-injection/)
+  - [https://tecoble.techcourse.co.kr/post/2021-04-27-dependency-injection/](https://tecoble.techcourse.co.kr/post/2021-04-27-dependency-injection/)
 
 ## 2. 팩토리 패턴
 
@@ -195,7 +191,7 @@ public class Printer {
 - 상위 클래스인 팩토리 클래스는 어떤 인스턴스를 어떻게 가져올 지 계획
 - 하위 클래스는 상위 클래스에서 지정한 일의 종류에 따라 할당 받은 일 (=객체 리턴)을 수행
 
-![Untitled](Singleton%20Pattern%20&%20Factory%20Pattern%207d83bb9240da475d90a81f584c308758/Untitled%201.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c6f694d8-7f93-4c99-8b18-603af6f93236/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220615%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220615T113828Z&X-Amz-Expires=86400&X-Amz-Signature=3e0931883665c7c0389efb0c86df6aa13329872fbfc7726cc410cd3e8c4847ed&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ### 2.2 장점
 
@@ -208,7 +204,6 @@ public class Printer {
 2. 의자 주문서의 변경(**객체 생성 방식 변경**)을 해당 의자 부서 직원이 623 군데의 거래처(**코드**)를 돌며 처리하지 않고 단 하나의 직영 대리점(**팩토리**)에서 처리할 수 있음
 
 > 대부분의 라이브러리를 사용할 때 우리는 팩토리 패턴의 효과를 보고 있음
-> 
 
 ### 2.3 팩토리 패턴 in TypeScript
 
@@ -217,86 +212,86 @@ public class Printer {
 고객은 관심있는 종류의 의자 인스턴스를 바로 호출
 
 ```tsx
-import ChairFactory from './chair-factory'
+import ChairFactory from "./chair-factory";
 
-const CHAIR = ChairFactory.getChair('small')
-console.log(CHAIR.getDimensions())
+const CHAIR = ChairFactory.getChair("small");
+console.log(CHAIR.getDimensions());
 ```
 
 ```tsx
 export type dimension = {
-    height: number
-    width: number
-    depth: number
-}
+  height: number;
+  width: number;
+  depth: number;
+};
 ```
 
 ```tsx
-import { dimension } from './dimension'
+import { dimension } from "./dimension";
 
 // A Chair Interface
 interface IChair {
-    height: number
-    width: number
-    depth: number
-    getDimensions(): dimension
+  height: number;
+  width: number;
+  depth: number;
+  getDimensions(): dimension;
 }
 
 // The Chair Base Class
 export default class Chair implements IChair {
-    height = 0
-    width = 0
-    depth = 0
+  height = 0;
+  width = 0;
+  depth = 0;
 
-    getDimensions(): dimension {
-        return {
-            width: this.width,
-            depth: this.depth,
-            height: this.height,
-        }
-    }
+  getDimensions(): dimension {
+    return {
+      width: this.width,
+      depth: this.depth,
+      height: this.height,
+    };
+  }
 }
 ```
 
 ```tsx
 // smallChair.ts
-import Chair from './chair'
+import Chair from "./chair";
 
 export default class SmallChair extends Chair {
-    constructor() {
-        super()
-        this.height = 40
-        this.width = 40
-        this.depth = 40
-    }
+  constructor() {
+    super();
+    this.height = 40;
+    this.width = 40;
+    this.depth = 40;
+  }
 }
 ```
 
 ```tsx
 // mediumChair.ts
-import Chair from './chair'
+import Chair from "./chair";
 
 export default class MediumChair extends Chair {
-    constructor() {
-        super()
-        this.height = 60
-        this.width = 60
-        this.depth = 60
-    }
+  constructor() {
+    super();
+    this.height = 60;
+    this.width = 60;
+    this.depth = 60;
+  }
 }
 ```
 
 ```tsx
 // bigChair.ts
-import Chair from './chair'
+import Chair from "./chair";
 
 export default class BigChair extends Chair {
-    constructor() {
-        super()
-        this.height = 80
-        this.width = 80
-        this.depth = 80
-    }
+  constructor() {
+    super();
+    this.height = 80;
+    this.width = 80;
+    this.depth = 80;
+  }
 }
 ```
 
@@ -323,6 +318,6 @@ export default class ChairFactory {
 ### 2.4 Reference
 
 - 팩토리 패턴은 언제 사용하나요?
-[https://stackoverflow.com/questions/69849/factory-pattern-when-to-use-factory-methods](https://stackoverflow.com/questions/69849/factory-pattern-when-to-use-factory-methods)
-- TS에서의 팩토리 패턴 
-[https://sbcode.net/typescript/factory/](https://sbcode.net/typescript/factory/)
+  [https://stackoverflow.com/questions/69849/factory-pattern-when-to-use-factory-methods](https://stackoverflow.com/questions/69849/factory-pattern-when-to-use-factory-methods)
+- TS에서의 팩토리 패턴
+  [https://sbcode.net/typescript/factory/](https://sbcode.net/typescript/factory/)
