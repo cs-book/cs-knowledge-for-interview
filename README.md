@@ -6,6 +6,7 @@
 
 ### Data Structure
 
+- [List, Set](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Data%20Structure/List%2C%20Set.md)
 - [Stack & Queue](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Data%20Structure/Stack_%26_Queue.md)
 - [해시 충돌](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Data%20Structure/hash_collision.md)
 - [Heap](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Data%20Structure/heap.md)
@@ -14,10 +15,12 @@
 
 - [트랜잭션](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Database/Transaction.md)
 - [트랜잭션 격리 수준](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Database/Transaction-Isolation-Level.md)
-- [index](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Database/index.md)
+- [Index](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Database/index.md)
+- [정규화](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94.md)
 
 ### Java
 
+- [Garbage Collection](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Java/garbage_collection.md)
 - [String is immutable](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Java/string_is_immutable.md)
 
 ### Network
@@ -34,7 +37,12 @@
 - [Interrupt vs Context Switching](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/interrupt_%26_context_switching.md)
 - [프로세스 vs 스레드](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/process_vs_thread.md)
 
+### Software Engineering
+
+- [Singleton Pattern & Factory Pattern](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Software%20Engineering/Singleton%20Pattern%20%26%20Factory%20Pattern.md)
+
 ### Web
 
 - [JWT](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/JWT.md)
 - [RESTful API](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/RESTful_API.md)
+- [www.naver.com을 검색하면 일어나는 과정](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/www.naver.com%EC%9D%84%20%EA%B2%80%EC%83%89%ED%95%98%EB%A9%B4%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EA%B3%BC%EC%A0%95.md)
