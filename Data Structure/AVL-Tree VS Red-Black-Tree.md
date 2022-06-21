@@ -65,11 +65,11 @@ O(N)이 나오는걸 알 수 있다.
 ### 균형 이진 탐색 트리에 들어가기 전에!!
 트리의 회전이란 개념을 알아야한다.
 
-<img src="https://azrael.digipen.edu/~mmead/www/Courses/CS280/RotateRight-1.gif" width="500" />
+<img src="https://azrael.digipen.edu/~mmead/www/Courses/CS280/RotateRight-1.gif" width="600" />
 
 오른쪽 회전
 
-<img src="https://azrael.digipen.edu/~mmead/www/Courses/CS280/RotateLeft-1.gif" width="500" />
+<img src="https://azrael.digipen.edu/~mmead/www/Courses/CS280/RotateLeft-1.gif" width="600" />
 
 왼쪽 회전
 
@@ -135,7 +135,7 @@ Balance Factor가 2가 나오므로 조정이 필요하다.
 ### 사전 개념
 >nil노드 = RB트리에서 leaf노드를 nil노드라고 한다
 
-<img src="https://user-images.githubusercontent.com/31895069/174845247-0db9acf2-eb42-42a8-ad4c-c860e08d5aa7.png" width="400" />
+<img src="https://user-images.githubusercontent.com/31895069/174845247-0db9acf2-eb42-42a8-ad4c-c860e08d5aa7.png" width="600" />
 
 
 ### RB트리의 속성
@@ -171,12 +171,12 @@ Balance Factor가 2가 나오므로 조정이 필요하다.
 <br/>
 10번 노드 삽입
 
-<img src="https://user-images.githubusercontent.com/31895069/174856662-b079fb4d-db2a-4f5e-a0a0-06713d6aaef7.gif" width="500" />
+<img src="https://user-images.githubusercontent.com/31895069/174856662-b079fb4d-db2a-4f5e-a0a0-06713d6aaef7.gif" width="600" />
 
 <br/>
 12번 노드 삽입
 
-<img src="https://user-images.githubusercontent.com/31895069/174856669-1c379ff4-1f13-4844-8a76-1b44f17482c2.gif" width="500" />
+<img src="https://user-images.githubusercontent.com/31895069/174856669-1c379ff4-1f13-4844-8a76-1b44f17482c2.gif" width="600" />
 
 노드가 삽입 된 후 위의 5가지 속성 위반여부를 확인하고 트리를 재조정 하는 것을 볼 수 있다.
 
@@ -186,12 +186,12 @@ Balance Factor가 2가 나오므로 조정이 필요하다.
 <br/>
 11번 노드 삭제
 
-<img src="https://user-images.githubusercontent.com/31895069/174857659-d65386fd-041c-4f20-92ee-9de66394afc2.gif" width="550" />
+<img src="https://user-images.githubusercontent.com/31895069/174857659-d65386fd-041c-4f20-92ee-9de66394afc2.gif" width="600" />
 
 <br/>
 12번 노드 삭제
 
-<img src="https://user-images.githubusercontent.com/31895069/174857669-c359cac9-79e9-45ed-84c6-1b8f903ffe08.gif" width="550" />
+<img src="https://user-images.githubusercontent.com/31895069/174857669-c359cac9-79e9-45ed-84c6-1b8f903ffe08.gif" width="600" />
 
 노드가 삭제 된 후 위의 5가지 속성 위반여부를 확인하고 트리를 재조정 하는 것을 볼 수 있다.
 
