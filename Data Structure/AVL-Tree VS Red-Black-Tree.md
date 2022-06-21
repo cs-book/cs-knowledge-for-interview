@@ -214,4 +214,19 @@ AVL트리는 삽입 삭제 후 루트까지 거슬러 가면서 Balance factor�
 
 균형이 더 엄격하기 때문에 검색면에서는 AVL-Tree가 더 적합하다.
 
-허나 실제로는 
+<hr/>
+
+
+## Reference
+
+https://ratsgo.github.io/data%20structure&algorithm/2017/10/28/rbtree/ <br/>
+https://m.blog.naver.com/min-program/221231697752 <br/>
+https://ebongzzang.github.io/algorithm/Red-Black-tree-%EA%B7%B8%EB%A6%AC%EA%B3%A0-AVL-tree%EC%99%80%EC%9D%98-%EB%B9%84%EA%B5%90/ <br/>
+https://jwdeveloper.tistory.com/280 <br/>
+https://devidea.tistory.com/36 <br/>
+https://lgphone.tistory.com/90 <br/>
+https://suhwanc.tistory.com/197?category=730826 <br/>
+
+## Simulator
+https://www.cs.usfca.edu/~galles/visualization/RedBlack.html <br/>
+https://www.cs.usfca.edu/~galles/visualization/AVLtree.html <br/>
