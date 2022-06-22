@@ -148,7 +148,6 @@ Balance Factor가 2가 나오므로 조정이 필요하다.
 
 5번 속성에서의 Black 노드의 수를 Black Height(BH) 라고 한다.
 
-즉 BH의 조건때문에 시간복잡도 logN을 만족하게 되는것이다.
 
 <img src="https://mblogthumb-phinf.pstatic.net/20110328_24/albertx_13012483354979uAP0_PNG/img_2.png?type=w2" width="400" />
 
