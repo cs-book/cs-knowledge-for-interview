@@ -85,7 +85,7 @@ O(N)이 나오는걸 알 수 있다.
 ## AVL Tree
 이진탐색트리의 한 종류로, Balance Factor를 통해서 스스로 균형을 잡는 트리이다.
 
->Balance Factor란 임의의 노드 X에 대해서 <br/>X의 왼쪽 서브트리의 높이 - X의 오른쪽 서브트리의 높이를 계산 한 값.
+>Balance Factor란 임의의 노드 X에 대해서 <br/>X의 왼쪽 서브트리의 높이와 X의 오른쪽 서브트리의 높이의 차이를 계산 한 값.
 
 AVL Tree에서는 모든 노드의 Balance Factor값이 -1 또는 0 또는 1 이어야 한다. <br/>
 만약, 다른 값이라면 트리의 균형을 맞춰주는 과정이 일어나게 된다.
@@ -138,6 +138,7 @@ Balance Factor가 2가 나오므로 조정이 필요하다.
 <img src="https://user-images.githubusercontent.com/31895069/174845247-0db9acf2-eb42-42a8-ad4c-c860e08d5aa7.png" width="600" />
 
 
+
 ### RB트리의 속성
 1. 모든 노드는 Red or Black 색상
 2. 루트 노드는 무조건 Black
@@ -149,6 +150,9 @@ Balance Factor가 2가 나오므로 조정이 필요하다.
 
 즉 BH의 조건때문에 시간복잡도 logN을 만족하게 되는것이다.
 
+<img src="https://mblogthumb-phinf.pstatic.net/20110328_24/albertx_13012483354979uAP0_PNG/img_2.png?type=w2" width="400" />
+
+(실제로는 이렇게 구현됨)
 
 ### RBT 삽입/삭제 절차
 1. 삽입/삭제 전 RB 속성 만족한 상태
@@ -167,7 +171,7 @@ Balance Factor가 2가 나오므로 조정이 필요하다.
 검색 과정은 BST와 동일 하다.
 
 
-### 삽입
+### 삽입 (삽임되는 노드의 색은 무조건 Red)
 <br/>
 10번 노드 삽입
 
