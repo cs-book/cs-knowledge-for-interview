@@ -200,7 +200,14 @@ Balance Factor가 2가 나오므로 조정이 필요하다.
 노드가 삭제 된 후 위의 5가지 속성 위반여부를 확인하고 트리를 재조정 하는 것을 볼 수 있다.
 
 (RB트리의 삽입과 삭제과정에는 여러 케이스가 있기 때문에 따로 더 알아보기 바란다.)
+ 
 
+RBT가 O(logN)임을 귀납적으로 증명
+<img src="https://user-images.githubusercontent.com/31895069/174993319-bb22953e-d3e4-4a65-9f3b-11225e859347.png" width="600" />
+
+<br/>
+<br/>
+<br/>
 
 ## AVL-Tree VS Red-Black-Tree
 
@@ -230,6 +237,7 @@ https://jwdeveloper.tistory.com/280 <br/>
 https://devidea.tistory.com/36 <br/>
 https://lgphone.tistory.com/90 <br/>
 https://suhwanc.tistory.com/197?category=730826 <br/>
+https://ferrante.tistory.com/46 <br/>
 
 ## Simulator
 https://www.cs.usfca.edu/~galles/visualization/RedBlack.html <br/>
