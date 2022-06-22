@@ -170,7 +170,7 @@ Balance Factor가 2가 나오므로 조정이 필요하다.
 검색 과정은 BST와 동일 하다.
 
 
-### 삽입 (삽임되는 노드의 색은 무조건 Red)
+### 삽입 (삽입되는 노드의 색은 무조건 Red)
 <br/>
 10번 노드 삽입
 
@@ -201,8 +201,9 @@ Balance Factor가 2가 나오므로 조정이 필요하다.
 (RB트리의 삽입과 삭제과정에는 여러 케이스가 있기 때문에 따로 더 알아보기 바란다.)
  
 
-RBT가 O(logN)임을 귀납적으로 증명
+>RBT가 O(logN)임을 귀납적으로 증명
 <img src="https://user-images.githubusercontent.com/31895069/174993319-bb22953e-d3e4-4a65-9f3b-11225e859347.png" width="600" />
+
 
 <br/>
 <br/>
