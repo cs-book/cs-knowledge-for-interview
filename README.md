@@ -28,6 +28,7 @@
 ### Network
 
 - [HTTP vs HTTPS](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Network/HTTP_vs_HTTPS.md)
+- [Multiplexing and Demultiplexing](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Network/Multiplexing%20and%20Demultiplexing.md)
 - [OSI 7 계층](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Network/OSI_7_layers.md)
 - [TCP vs UDP](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Network/TCP_vs_UDP.pdf)
 - [대칭키 & 공개키](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Network/symmentric-key_vs_public-key.md)
@@ -35,6 +36,7 @@
 ### OS
 
 - [CPU 스케줄러](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/CPU_scheduler.md)
+- [Paging vs Segmentation](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/Paging%20vs%20Segmentation.md)
 - [Deadlock](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/deadlock.md)
 - [Interrupt vs Context Switching](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/interrupt_%26_context_switching.md)
 - [프로세스 vs 스레드](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/process_vs_thread.md)
@@ -42,6 +44,8 @@
 ### Software Engineering
 
 - [Singleton Pattern & Factory Pattern](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Software%20Engineering/Singleton%20Pattern%20%26%20Factory%20Pattern.md)
+- [Strategy Pattern](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Software%20Engineering/Strategy%20Pattern.md)
+- [UML](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Software%20Engineering/UML.md)
 
 ### Web
 
