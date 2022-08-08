@@ -49,6 +49,7 @@
 
 ### Web
 
+- [CORS](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/CORS.md)
 - [JWT](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/JWT.md)
 - [RESTful API](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/RESTful_API.md)
 - [www.naver.com을 검색하면 일어나는 과정](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/www.naver.com%EC%9D%84%20%EA%B2%80%EC%83%89%ED%95%98%EB%A9%B4%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EA%B3%BC%EC%A0%95.md)
