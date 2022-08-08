@@ -52,4 +52,5 @@
 - [CORS](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/CORS.md)
 - [JWT](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/JWT.md)
 - [RESTful API](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/RESTful_API.md)
+- [Web 서버와 WAS의 차이](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/Web%20%EC%84%9C%EB%B2%84%EC%99%80%20WAS%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 - [www.naver.com을 검색하면 일어나는 과정](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/WEB/www.naver.com%EC%9D%84%20%EA%B2%80%EC%83%89%ED%95%98%EB%A9%B4%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EA%B3%BC%EC%A0%95.md)
