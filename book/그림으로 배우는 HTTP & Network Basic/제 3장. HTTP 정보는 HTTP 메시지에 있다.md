@@ -93,7 +93,7 @@ Content-Type: application/json
 
 ## 메시지 인코딩
 
-HTTP로 데이터를 전송할 때 인코딩을 적용하면 데이터를 효율적을 전송할 수 있습니다.
+HTTP로 데이터를 전송할 때 인코딩을 적용하면 데이터를 효율적으로 전송할 수 있습니다.
 
 ### 압축, Content-Encoding
 
