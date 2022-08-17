@@ -47,6 +47,7 @@
 ### OS
 
 - [CPU 스케줄러](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/CPU_scheduler.md)
+- [Mutex vs Semaphore](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/Mutex%20vs%20Semaphore.md)
 - [Paging vs Segmentation](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/Paging%20vs%20Segmentation.md)
 - [Deadlock](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/deadlock.md)
 - [Interrupt vs Context Switching](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/interrupt_%26_context_switching.md)
