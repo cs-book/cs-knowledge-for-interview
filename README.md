@@ -25,6 +25,7 @@
 ### Database
 
 - [NoSQL](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Database/NoSQL.md)
+- [Redis](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Database/Redis.md)
 - [트랜잭션](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Database/Transaction.md)
 - [트랜잭션 격리 수준](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Database/Transaction-Isolation-Level.md)
 - [Index](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Database/index.md)
