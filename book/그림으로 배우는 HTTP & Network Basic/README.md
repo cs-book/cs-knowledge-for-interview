@@ -8,6 +8,7 @@
 답변
 
 </details>
+
 <details>
 <summary>공인 IP와 사설 IP의 차이점은 무엇인가요?</summary>
 
@@ -20,13 +21,14 @@
 ## 제 3장. HTTP 정보는 HTTP 메시지에 있다.
 
 <details>
-<summary>HTTP 메시지의 구조에 대해 설명해보세요.</summary>
+<summary>HTTP 메시지의 구조에 대해 설명해주세요.</summary>
 
 답변
 
 </details>
+
 <details>
-<summary>요청 메시지와 응답 메시지의 차이는?</summary>
+<summary>요청 메시지와 응답 메시지의 차이에 대해 설명해주세요.</summary>
 
 답변
 
@@ -35,25 +37,90 @@
 ## 제 4장. 결과를 전달하는 HTTP 상태 코드
 
 <details>
-<summary>HTTP 상태 코드에 대해 설명해주세요</summary>
+<summary>HTTP 상태 코드에 대해 설명해주세요.</summary>
 
 답변
 
 </details>
+
 <details>
-<summary>ㅇㅇ 상태 코드에 대해 알고 있나요?</summary>
+<summary>ㅇㅇ 상태 코드에 대해 설명해주세요.</summary>
 
 답변
 
 </details>
+
 <details>
-<summary>프로젝트에서 사용해 본 상태코드에 대해 설명해주세요</summary>
+<summary>프로젝트에서 사용해 본 상태코드에 대해 설명해주세요.</summary>
 
 답변
 
 </details>
+
 <details>
 <summary>GET, POST, PUT, DELETE 외에 아는 메소드가 있나요?</summary>
+
+답변
+
+</details>
+
+## 제 5장. HTTP와 연계하는 웹 서버
+
+<details>
+<summary>프록시에 대해 설명해주세요.</summary>
+
+답변
+
+</details>
+
+<details>
+<summary>게이트웨이에 대해 설명해주세요.</summary>
+
+답변
+
+</details>
+
+<details>
+<summary>프록시와 게이트웨이의 차이점을 설명해주세요.</summary>
+
+답변
+
+</details>
+
+## 제 6장. HTTP 헤더
+
+<details>
+<summary>HTTP 헤더 필드가 중복되면 어떻게 되나요?</summary>
+
+답변
+
+</details>
+
+<details>
+<summary>HTTPS에서만 쿠키를 사용하도록 하려면 Set-Cookie 헤더 필드에 어떤 속성을 추가해야 하나요?</summary>
+
+답변
+
+</details>
+
+<details>
+<summary>자바스크립트로 쿠키글 읽지 못하도록 하려면 Set-Cookie 헤더 필드에 어떤 속성을 추가해야 하나요?</summary>
+
+답변
+
+</details>
+
+## 제 7장. 웹을 안전하게 하는 HTTPS
+
+<details>
+<summary>HTTPS에서 공개키 알고리즘과 대칭키 알고리즘이 어떻게 쓰이나요?</summary>
+
+답변
+
+</details>
+
+<details>
+<summary>HTTPS에서 CA의 역할은 무엇인가요?</summary>
 
 답변
 
