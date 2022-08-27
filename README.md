@@ -57,6 +57,10 @@
 - [Interrupt vs Context Switching](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/interrupt_%26_context_switching.md)
 - [프로세스 vs 스레드](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/OS/process_vs_thread.md)
 
+### Security
+
+- [OWASP Top 10](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Security/OWASP%20Top%2010.md)
+
 ### Software Engineering
 
 - [Singleton Pattern & Factory Pattern](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Software%20Engineering/Singleton%20Pattern%20%26%20Factory%20Pattern.md)
