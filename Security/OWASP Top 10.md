@@ -69,7 +69,7 @@ OWASP는 `Open Web Application Security Project`라는 비영리 재단입니다
 
 ### 취약점 예시
 
-- 설꼐 단계에서 보안을 고려하지 않은 상태
+- 설계 단계에서 보안을 고려하지 않은 상태
 
 ### 예방 방법
 
