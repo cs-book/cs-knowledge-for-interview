@@ -11,6 +11,8 @@
 - [제 4장. 결과를 전달하는 HTTP 상태 코드](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/book/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%A0%9C%204%EC%9E%A5.%20%EA%B2%B0%EA%B3%BC%EB%A5%BC%20%EC%A0%84%EB%8B%AC%ED%95%98%EB%8A%94%20HTTP%20%EC%83%81%ED%83%9C%20%EC%BD%94%EB%93%9C.md)
 - [제 5장. HTTP와 연계하는 웹 서버](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/book/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%A0%9C%205%EC%9E%A5.%20HTTP%EC%99%80%20%EC%97%B0%EA%B3%84%ED%95%98%EB%8A%94%20%EC%9B%B9%20%EC%84%9C%EB%B2%84.md)
 - [제 6-2장. HTTP 헤더](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/book/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%A0%9C%206-2%EC%9E%A5.%20HTTP%20%ED%97%A4%EB%8D%94.md)
+- [제 8장. 누가 액세스하고 있는지를 확인하는 인증](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/book/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%A0%9C%208%EC%9E%A5.%20%EB%88%84%EA%B0%80%20%EC%95%A1%EC%84%B8%EC%8A%A4%ED%95%98%EA%B3%A0%20%EC%9E%88%EB%8A%94%EC%A7%80%EB%A5%BC%20%ED%99%95%EC%9D%B8%ED%95%98%EB%8A%94%20%EC%9D%B8%EC%A6%9D.md)
+- [제 9장. HTTP에 기능을 추가한 프로토콜](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/book/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20HTTP%20%26%20Network%20Basic/%EC%A0%9C%209%EC%9E%A5.%20HTTP%EC%97%90%20%EA%B8%B0%EB%8A%A5%EC%9D%84%20%EC%B6%94%EA%B0%80%ED%95%9C%20%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C.md)
 
 </details>
 
