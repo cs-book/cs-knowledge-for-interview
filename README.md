@@ -65,6 +65,7 @@
 
 ### Software Engineering
 
+- [SOLID 원칙](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Software%20Engineering/SOLID%20%EC%9B%90%EC%B9%99.md)
 - [Singleton Pattern & Factory Pattern](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Software%20Engineering/Singleton%20Pattern%20%26%20Factory%20Pattern.md)
 - [Strategy Pattern](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Software%20Engineering/Strategy%20Pattern.md)
 - [UML](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Software%20Engineering/UML.md)
