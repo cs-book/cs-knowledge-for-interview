@@ -39,6 +39,7 @@
 
 ### Java
 
+- [HashMap vs Hashtable vs ConcurrentHashMap](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Java/HashMap%20vs%20Hashtable%20vs%20ConcurrentHashMap.md)
 - [Garbage Collection](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Java/garbage_collection.md)
 - [String is immutable](https://github.com/cs-book/cs-knowledge-for-interview/blob/main/Java/string_is_immutable.md)
 
